@@ -6,19 +6,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
     <header>
-        <div class="navbar">
-                <p class="logo1 border"></p>
+        <div class=" navbar">
+                <p class="logos border"></p>
+                <p >Dashboard</p>
+                <p>report</p>
+                <p>tool</p>
+                <p>setting</p>
                      
-                        <p>dashbord</p>
-                        <p>reports</p>
-                        <p>tool</p>
-                        <p>setting</p>
+            
+                    
                     
 
         </div>
 </header>
+
+
+    <body>
+        <?php include('Dashboard.php');
+        ?>
     
 </body>
 </html>
