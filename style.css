@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 * {
   margin: 0;
   font-family: Arial;
@@ -61,29 +63,64 @@ button {
   align-items: center;
   background-color: blanchedalmond;
 }
-
-.progres {
+.wrapper {
   display: flex;
+  gap: 90px;
+}
+.container {
+  height: 250px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 320px;
+  margin-left: 20px;
+  position: relative;
+  border: 2px solid black;
 }
 
-.risk {
-  height: 230px;
+.outer {
+  height: 200px;
   width: 200px;
-  border: 2px solid black;
-  margin-left: 40px;
-  margin-top: 330px;
-}
-.overall {
-  height: 139px;
-  width: 120px;
-  border: 9px solid black;
+  /* border: 2px solid black; */
+  box-shadow:
+    -1px -1px 5px 0 rgb(8, 8, 8),
+    3px 3px 5px black;
   border-radius: 50%;
-  margin-left: 30px;
-  margin-top: 50px;
+  padding: 30px;
 }
-#risk {
-  background-color: rgb(60, 110, 110);
+.inner {
+  height: 140px;
+  width: 140px;
+  /* border: 2px solid black; */
+  box-shadow:
+    inset -1px -1px 5px 0 rgb(8, 8, 8),
+    inset 3px 3px 5px black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#risk2 {
-  background-color: blue;
+#number {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: lightyellow;
+}
+
+svg {
+  position: absolute;
+}
+circle {
+  fill: none;
+  stroke: url(#linearGradient);
+  stroke-width: 30px;
+  stroke-dasharray: 1165;
+  stroke-dashoffset: 1165;
+  stroke-linecap: round;
+  animation: anim 1s ease forwards;
+}
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 404.75;
+  }
 }
