@@ -22,7 +22,6 @@
   display: inline;
   margin-left: 10px;
 }
-
 .border {
   border: 2px solid transparent;
 }
@@ -65,15 +64,16 @@ button {
 }
 .wrapper {
   display: flex;
-  gap: 90px;
+  gap: 60px;
 }
 .container {
-  height: 250px;
+  height: 300px;
   width: 300px;
   display: flex;
   align-items: center;
+  align-items: center;
   justify-content: center;
-  margin-top: 320px;
+  margin-top: 264px;
   margin-left: 20px;
   position: relative;
   border: 2px solid black;
@@ -104,6 +104,7 @@ button {
 #number {
   font-size: 2.5rem;
   font-weight: 400;
+  text-align: center;
   color: lightyellow;
 }
 
@@ -123,4 +124,135 @@ circle {
   100% {
     stroke-dashoffset: 404.75;
   }
+}
+.risk {
+  margin-top: -212px;
+  font-size: 0.7rem;
+  margin-left: -40px;
+}
+h5 {
+  font-size: 0.7rem;
+  margin-left: -40px;
+}
+.icon {
+  background-image: url("overall.jpeg");
+  height: 27px;
+  width: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  margin-left: -76px;
+}
+.box {
+  height: 30px;
+  width: 100px;
+  margin-bottom: -255px;
+  margin-left: -96px;
+  border: 2px solid black;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+.boxicon {
+  background-image: url("overall.jpeg");
+  height: 24px;
+  width: 25px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -67px;
+}
+
+.high {
+  margin-top: -25px;
+  margin-left: 20px;
+}
+/* malware risk */
+
+.icon2 {
+  background-image: url("malwer.jpeg");
+  height: 27px;
+  width: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  margin-left: -76px;
+}
+.iconmal {
+  background-image: url("malwer.jpeg");
+  height: 27px;
+  width: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  left: -35px;
+}
+
+/* network risk */
+.nebox {
+  height: 30px;
+  width: 100px;
+  margin-bottom: -255px;
+  margin-left: -96px;
+  border: 2px solid black;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+.icon3 {
+  background-image: url("net.jpeg");
+  height: 27px;
+  width: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  margin-left: -76px;
+}
+
+.neticon {
+  background-image: url("net.jpeg");
+  height: 22px;
+  width: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  bottom: -3px;
+  margin-left: -66px;
+}
+
+.optimal {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+/* web risk */
+.icon4 {
+  background-image: url("web.jpeg");
+  height: 27px;
+  width: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  margin-left: -76px;
+}
+
+.webicon {
+  background-image: url("web.jpeg");
+  height: 26px;
+  width: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  bottom: -3px;
+  margin-left: -66px;
 }
