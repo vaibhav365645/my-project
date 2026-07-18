@@ -115,10 +115,11 @@ circle {
   fill: none;
   stroke: url(#linearGradient);
   stroke-width: 30px;
-  stroke-dasharray: 1165;
-  stroke-dashoffset: 1165;
+  stroke-dasharray: 534;
+  stroke-dashoffset: 534;
   stroke-linecap: round;
-  animation: anim 1s ease forwards;
+  transform: rotate();
+  animation: anim 1s ease-in-out;
 }
 @keyframes anim {
   100% {
